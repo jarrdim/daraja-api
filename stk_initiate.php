@@ -13,15 +13,7 @@ if(isset($_POST['submit'])){
   $BusinessShortCode = '174379';
   $Passkey = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919';  
   
-  /*
-    This are your info, for
-    $PartyA should be the ACTUAL clients phone number or your phone number, format 2547********
-    $AccountRefference, it maybe invoice number, account number etc on production systems, but for test just put anything
-    TransactionDesc can be anything, probably a better description of or the transaction
-    $Amount this is the total invoiced amount, Any amount here will be 
-    actually deducted from a clients side/your test phone number once the PIN has been entered to authorize the transaction. 
-    for developer/test accounts, this money will be reversed automatically by midnight.
-  */
+
   
    $PartyA = $_POST['phone']; // This is your phone number, 
   $AccountReference = '2255';
